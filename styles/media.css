@@ -1,0 +1,85 @@
+@media(max-width:1140px) {
+  .product__box {
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap
+  }
+
+  .header__nav {
+    padding: 6px 40px;
+  }
+}
+
+@media(max-width:750px) {
+  .commerce__airpods1 {
+    flex-wrap: wrap;
+  }
+
+  .header__content-title {
+    font-size: 70px;
+  }
+}
+
+@media(max-width:700px) {
+  .commerce__airpods2 {
+    flex-wrap: wrap;
+  }
+
+  .commerce__airpods3 {
+    flex-wrap: wrap;
+  }
+
+  .commerce__airpods-strip {
+    flex-direction: column;
+  }
+
+  .commerce__airpods-strip::after {
+    width: 1px;
+    height: 61px;
+  }
+
+  .commerce__airpods-strip::before {
+    width: 1px;
+    height: 61px;
+  }
+
+  .commerce__airpods-img {
+    max-width: 500;
+    width: 100%;
+  }
+}
+
+@media(max-width:600px) {
+  .footer__box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media(max-width:550px) {
+  .header__nav-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media(max-width:500px) {
+  .header__content-title {
+    font-size: 50px;
+  }
+}
+
+@media(max-width:380px) {
+  .header__nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media(max-width:350px) {
+  .header__content-title {
+    font-size: 40px;
+  }
+}
